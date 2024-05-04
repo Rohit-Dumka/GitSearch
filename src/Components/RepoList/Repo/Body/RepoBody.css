@@ -1,0 +1,21 @@
+div.RepoBody{
+    border: 3px solid black;
+    margin-bottom: 0.4rem;
+    text-align: center;
+    a.ContentLink{
+        height: 100%;
+        width: 100%;
+        color: black !important;
+        text-decoration: none !important;
+    }
+    .Body{
+        padding-bottom: 0.5rem;
+    }
+    p{
+        margin-bottom: 0.5rem;
+    }
+    .InfoModalToggler{
+        border-radius: 100%;
+        margin-bottom: 0.5rem;
+    }
+}

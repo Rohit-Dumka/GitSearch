@@ -1,0 +1,23 @@
+.ItemLink{
+  text-decoration: none !important;
+}
+div.SectionItem, a.SectionItem{
+  border: 2px solid black !important;
+  color: black !important;
+  padding: 0;
+  background-color: #f8f9fa !important;
+  h5{
+    margin: 0;
+    padding: 0.7rem;
+  }
+  a{
+    color: black !important;
+    text-decoration: none !important;
+  }
+  .Icon{
+    margin-right: 0.5rem;
+  }
+}
+div.SectionItem:hover, a.SectionItem:hover{
+    background-color: #cecece !important;
+}

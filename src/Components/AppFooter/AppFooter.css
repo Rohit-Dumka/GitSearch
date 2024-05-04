@@ -1,0 +1,25 @@
+.name{
+    border: 2px solid black;
+    padding: 1rem 0 0.5rem 0; 
+    margin-bottom: 0.4rem; 
+    background-color: black;
+    text-align: center;
+}
+footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    z-index: 100;
+  }
+.footer:hover{
+    background-color: hsl(210, 10%, 15%);
+    color: white;
+}
+.name h5 {
+    font-size: 25px; 
+}

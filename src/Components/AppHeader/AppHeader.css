@@ -1,0 +1,39 @@
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 30px;
+}
+.logo{
+    size: 1px;
+}
+.navLeft{
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 100px;
+}
+.navRight{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 100px;
+    font-size: 20px;
+}
+.box{
+    transition: width 0.3s ease;
+    border: 2px solid black;
+    border-radius: 4px;
+    padding: 30px;
+}
+.box:focus,
+.box:hover{
+    width: 400px;
+    border-color: skyblue;
+}
+.searchBox input[type='text']::placeholder {
+    font-size: 20px;
+}
+
+/* .Header{
+    .TitleLink
+} */

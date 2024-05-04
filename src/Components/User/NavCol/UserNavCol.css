@@ -1,0 +1,13 @@
+.UserNavCol{
+    margin-bottom: 0.3rem;
+    text-align: center;
+    .NavLink{
+        color: black;
+        font-weight: 550;
+        text-decoration: underline;
+        &:hover{
+            color: #23272b;
+            font-weight: 650;
+        }
+    }
+}

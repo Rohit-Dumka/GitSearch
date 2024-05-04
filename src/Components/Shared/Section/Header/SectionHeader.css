@@ -1,0 +1,31 @@
+.SquareHeader, .RoundHeader{
+    display: block !important;
+    border: 2px solid black;
+    padding: 1rem 0 0.5rem 0; 
+    margin-bottom: 0.4rem;
+    background-color: black;
+    position: relative;
+}
+.RoundHeader{
+    border-radius: 2rem 2 rem 0 0;
+}
+.SquareBackButton, .RoundBackButton{
+    color: #F8F9FA !important;
+    background-color:black;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 118%;
+    width: 8rem;
+    top: -0.3rem;
+    left: -0.3rem;
+    border: 0.2rem solid #F8F9FA;
+}
+.SquareBackButton:hover{
+    background-color: #23272b;
+}
+
+.RoundBackButton{
+  border-radius: 2rem 0 0 0;
+}

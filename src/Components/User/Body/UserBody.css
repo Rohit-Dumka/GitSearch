@@ -1,0 +1,61 @@
+div.UserBody{
+  border: 3px solid black;
+  margin-bottom: 0.4rem;
+  .row{
+    height: '100%';
+  }
+  .PictureCol{
+    height: 100%;
+    .Picture{
+      height: 100%;
+      width: 100%;
+    }
+  }
+  .InfoCol{
+    padding: 0 5rem 0 5rem;
+    .Body{
+      height: 100%;
+      width: 100%;
+      .Text{
+        height: 100%;
+        width: 100%;
+        display: flex;
+        .Inner{
+          display: block;
+          padding: 0;
+          margin: auto;
+          .Title{
+            text-align: center;
+            font-size: 20pt;
+          }
+          .Bio{
+            font-size: 14pt;
+            text-align: center;
+          }
+          .NavRow{
+            margin: auto;
+            .LocationCol{
+              text-align: center;
+              font-size: 14pt;
+              .LocationLink{
+                color: #343a40;
+                font-weight: 500;
+                text-decoration: underline;
+                &:hover{
+                  color: #23272b;
+                  font-weight: 600;
+                }
+              }
+            }
+            .QuestionCol{
+              text-align: center;
+              .InfoModalToggler{
+                border-radius: 100%;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
